@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "meditation-learn-app",
+          "appId": "1:919432957173:android:160560dc7275f38a7509bc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "meditation-learn-app",
+          "appId": "1:919432957173:ios:8ceaa759c879606f7509bc",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "meditation-learn-app",
+          "configurations": {
+            "android": "1:919432957173:android:160560dc7275f38a7509bc",
+            "ios": "1:919432957173:ios:8ceaa759c879606f7509bc"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "singleProjectMode": true
+  }
+}
